@@ -1,5 +1,5 @@
 # Pmod-SSD
- Digilent Pmod SSD seven-segment display Verilog module. On the Arty S7 board, LED2 LED3 LED4 LED5 should flash. If the seven segment displays don't light up the module might be plugge in the wrong sockets. Use the top rows of JC and JD socets.
+ Digilent Pmod SSD seven-segment display Verilog module. On the Arty S7 board, LED2 LED3 LED4 LED5 should flash. If the seven segment displays don't light up the module might be plugged in the wrong sockets. Use the top rows of JC and JD socets.
 
 Uncomment the lines corresponding to these signals in the constraints (.xcd) file for your board. Different boards use different pins so the file must be the exact one for the board you are using.
 
